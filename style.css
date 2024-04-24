@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'Josefin_Sans';
+    src: /*url('Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf') format('woff2'),*/
+         url('Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('woff'),
+         url('Josefin_Sans/static/JosefinSans-Regular.ttf') format('truetype'),
+         url('Josefin_Sans/static/JosefinSans-Thin.ttf') format('truetype');
+  }
+  
+*{
+   font-family: 'Montserrat', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.navbar, .footer a {
+   font-size: 14px;
+   font-weight: 500;
+}
+
+.navbar-toggler{
+   padding: 1px 5px;
+   font-size: 18px;
+   line-height: 0.3;
+   background: transparent;
+}
+
+.navbar, .footer li{
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
+h1{
+    font-family: 'Josefin_Sans', sans-serif;
+    margin-top: 100px;
+    font-weight: 350 !important;
+    font-size: 70px !important;
+}
+
+.card-footer{
+    background-color: white;
+}
+
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    white-space: nowrap;
+    position: absolute;
+    left: 10px; 
+    top: 50%; 
+}
+
+.prices-classes{
+    background-image: url(img/mandala2.png);
+    margin-top: 50px;
+    width: 100%;
+}
+
+.review-gallery{
+    background-image: url(img/mandala1.png);
+}
+
+/*
+.team {
+    background-color: #e4e8f1;
+}*/
+
+form{
+    width: 80%;
+    background-color: white;
+    padding: 50px;
+    margin-top: 150px;
+}
+
+.sign-up .card{
+    margin-top: 70px;
+}
+
+.sign-up .form-control{
+    color: rgba(0,0,0,0.87);
+    border-bottom-color: rgba(0, 0, 0, 0.47);
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+    width: 80%;
+    margin-left: 40px;
+    padding-left: 150px;
+}
+
+.design{
+    height: 150px !important; 
+    width: 5px !important; 
+    background-color: #000 !important;
+    margin-top: 8px;
+    right: 0;
+}
+
+.team-img{
+    z-index: -1;
+    position: absolute;
+}
+iframe {
+    filter: grayscale(85%);
+    opacity: 0.9;
+}
+
+.prices-classes .card{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#prices .card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-family: 'Josefin_Sans', sans-serif;
+        margin-top: 100px;
+        font-weight: 350 !important;
+        font-size: 50px !important;
+    }
+    .review .card p{
+        font-size: 14px !important;
+    }
+
+    .review .card .img-fluid{
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .team p{
+        font-size: 14px;
+    }
+    .team h3{
+        font-size: 16px;
+    }
+    .gallery .carousel-caption p{
+        font-size: 12px;
+    }
+
+    .gallery .carousel-caption .d-flex{
+        margin: 0 !important;
+    }
+
+    .gallery .carousel-caption .d-flex .logo{
+        width: 30px !important;
+        height: 30px !important;
+        margin-top: 10px;
+    }
+
+    .gallery .carousel-caption .d-flex .icon{
+        width: 20px !important;
+        height: 20px !important;
+    }
+  }
+
+
+ /* 
+  ≥576px
+
+  ≥992px
+
+  ≥1200px
+
+  ≥1400px

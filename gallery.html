@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yoga Studio</title>
+    <link rel="shortcut icon" href="img/logo.png"/>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(img/mandala.png);
+        }
+
+
+        .card{
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            font-family: 'Montserrat', sans-serif;
+            border: 0;
+        }
+
+        .card img{
+            border-radius: 0;
+        }
+
+        .card-title{
+            color: white;
+            font-family: 'Robot', sans-serif;
+            opacity: 0.7;
+        }
+
+        h1{
+            font-family: 'Josefin_Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-transparent z-1">
+            <div class="container justify-content-space-around">
+                <div style="background-color: #000; margin-top: -8px; width: 80px; height: 100px; ">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="logo" class="img-fluid mt-3">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                    <ul class="navbar-nav text-center mx-auto mg-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="class.html">Classes <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html#prices">Prices & packeges <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="team.html">Our team <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contacts <span class="arrow-icon">&#124</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html#sign-up">Sign up </a>
+                          </li>
+                    </ul>
+                </div>
+                <a class="navbar-brand" href="#">
+                    <img src="img/call.png" alt="logo" style="height: 20px; width: 20px;"> <strong style="font-size: 16px;">+(976) 8002-1027</strong> 
+                </a>
+            </div>
+        </nav>
+
+
+
+        <section class="gallery">
+            <div class="container-fluid">
+                <div class="container" style="width: 100%;">
+                    <h1 style="text-align: center;">Gallery</h1>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                        <div class="col">
+                            <div class="card h-100 rounded-0">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="..." class="card-img" alt="...">
+                                <div class="card-img-overlay">
+                                  <h5 class="card-title"></h5>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!--API-->
+    <script>
+        $(document).ready(function () {
+        var apiData = {
+  "images": [
+    {
+      "id": 1,
+      "url": "https://img.freepik.com/free-photo/young-woman-ardha-bhudjangasana-pose-grey-studio-background_1163-2480.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Ardha Bhujangasana Pose"
+    },
+    {
+      "id": 2,
+      "url": "https://img.freepik.com/free-photo/young-woman-eka-hasta-bhujasana-pose-grey-studio-background_1163-2472.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Eka Hasta Bhujasana Pose"
+    },
+    {
+      "id": 3,
+      "url": "https://img.freepik.com/free-photo/young-woman-ardha-matsyendrasana-pose-grey-studio-background_1163-2470.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Ardha Matsyendrasana Pose"
+    },
+    {
+      "id": 4,
+      "url": "https://img.freepik.com/free-photo/young-woman-uttanasana-pose-grey-studio-background_1163-2436.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Uttanasana Pose"
+    },
+    {
+      "id": 5,
+      "url": "https://img.freepik.com/free-photo/young-woman-utthan-pristhasana-pose-grey-studio-background_1163-2437.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Utthan Pristhasana Pose"
+    },
+    {
+      "id": 6,
+      "url": "https://img.freepik.com/free-photo/young-woman-ardha-hanumanasana-pose-grey-studio-background_1163-2464.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Ardha Hanumanasana Pose"
+    },
+    {
+      "id": 7,
+      "url": "https://img.freepik.com/free-photo/young-woman-utthan-pristhasana-pose-grey-studio-background_1163-2461.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Utthan Pristhasana Pose"
+    },
+    {
+      "id": 8,
+      "url": "https://img.freepik.com/free-photo/young-woman-dhanurasana-pose-grey-studio-background_1163-2481.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Dhanurasana Pose"
+    },
+    {
+      "id": 9,
+      "url": "https://img.freepik.com/free-photo/young-woman-paschimottanasana-pose-grey-studio-background_1163-2478.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Paschimottanasana Pose"
+    },
+    {
+      "id": 10,
+      "url": "https://img.freepik.com/free-photo/young-woman-camel-pose-grey-studio-background_1163-2504.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Camel Pose"
+    },
+    {
+      "id": 11,
+      "url": "https://img.freepik.com/free-photo/young-woman-ardha-uttanasana-pose-grey-studio-background_1163-2439.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Ardha Uttanasana pose"
+    },
+    {
+      "id": 12,
+      "url": "https://img.freepik.com/free-photo/young-woman-parivrtta-parsvakonasana-pose-grey-studio-background_1163-2451.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Parivrtta Parsvakonasana pose"
+    },
+    {
+      "id": 13,
+      "url": "https://img.freepik.com/free-photo/young-woman-padmasana-pose-grey-studio-background_1163-2501.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Padmasana pose"
+    },
+    {
+      "id": 14,
+      "url": "https://img.freepik.com/free-photo/young-woman-horse-rider-pose-grey-studio-background_1163-2460.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Horse Rider Pose"
+    },
+    {
+      "id": 15,
+      "url": "https://img.freepik.com/free-photo/young-woman-surya-yantrasana-pose-grey-studio-background_1163-2489.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Surya Yantrasana pose"
+    },
+    {
+      "id": 16,
+      "url": "https://img.freepik.com/free-photo/young-woman-utthita-trikonasana-pose-grey-studio-background_1163-2449.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Utthita Trikonasana pose"
+    },
+    {
+      "id": 17,
+      "url": "https://img.freepik.com/free-photo/young-woman-hanumanasana-pose-grey-studio-background_1163-2462.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Hanumanasana pose"
+    },
+    {
+      "id": 18,
+      "url": "https://img.freepik.com/free-photo/young-woman-urdhva-dhanurasana-pose-grey-studio-background_1163-2493.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Urdhva Dhanurasana pose"
+    },
+    {
+      "id": 19,
+      "url": "https://img.freepik.com/free-photo/young-woman-variation-salamba-sirsasana-pose-grey-studio_1163-2497.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Salamba Sirsasana pose"
+    },
+    {
+      "id": 20,
+      "url": "https://img.freepik.com/free-photo/young-woman-krounchasana-pose-grey-studio-background_1163-2507.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Krounchasana pose"
+    },
+    {
+      "id": 21,
+      "url": "https://img.freepik.com/free-photo/young-woman-one-legged-wheel-pose-grey-studio_1163-2495.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "One-Legged Wheel Pose"
+    },
+    {
+      "id": 22,
+      "url": "https://img.freepik.com/free-photo/young-woman-side-plank-pose-grey-studio-background_1163-2484.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Side Plank Pose"
+    },
+    {
+      "id": 23,
+      "url": "https://img.freepik.com/free-photo/young-woman-hanumanasana-pose-against-grey-studio-background_1163-2463.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Hanumanasana pose"
+    },
+    {
+      "id": 24,
+      "url": "https://img.freepik.com/free-photo/young-woman-paripurna-navasana-pose-grey-studio-background_1163-2475.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Paripurna Navasana pose"
+    },
+    {
+      "id": 25,
+      "url": "https://img.freepik.com/free-photo/young-woman-virabhadrasana-i-pose-grey-studio-background_1163-2447.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Virabhadrasana I pose"
+    },
+    {
+      "id": 26,
+      "url": "https://img.freepik.com/free-photo/young-woman-baddha-ardha-samakonasana-pose-grey-studio-background_1163-2499.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Baddha Ardha Samakonasana pose"
+    },
+    {
+      "id": 27,
+      "url": "https://img.freepik.com/free-photo/young-woman-anjaneyasana-pose-grey-studio-background_1163-2459.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Anjaneyasana Pose"
+    },
+    {
+      "id": 28,
+      "url": "https://img.freepik.com/free-photo/young-woman-urdhva-mukha-paschimottanasana-pose-grey-studio-background_1163-2477.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.2.1064177627.1701929347&semt=ais",
+      "caption": "Urdhva Mukha Paschimottanasana Pose"
+    },
+    {
+      "id": 29,
+      "url": "https://img.freepik.com/free-photo/young-woman-bakasana-pose-grey-studio-background_1163-2469.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Bakasana Pose"
+    },
+    {
+      "id": 30,
+      "url": "https://img.freepik.com/free-photo/young-woman-parsvottanasana-pose-grey-studio-background_1163-2448.jpg?size=626&ext=jpg&uid=R56967196&ga=GA1.1.1064177627.1701929347&semt=ais",
+      "caption": "Parsvottanasana Pose"
+    }
+  ]
+}
+;
+    
+            $(".card-title").each(function (index) {
+                $(this).text('• ' + apiData.images[index].caption);
+                var imgElement = $(this).closest(".card").find(".card-img");
+                imgElement.attr("src", apiData.images[index].url);
+            });
+        });
+    </script>
+
+           
+    <!--Footer-->
+    <section class="footer bg-transparent position-relative" style="margin-top: 80px;">
+        <div class="container">
+            <div class="d-flex justify-content-between text-center">
+                <div class="footer" style="background-color: #000; width: 80px; height: 100px; ">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="logo" class="img-fluid">
+                    </a>
+                </div>
+                <ul class="list-unstyled d-flex justify-content-between align-items-center mt-4">
+                    <li><a class="nav-link" href="index.html" style="text-decoration: none;">Home |</a></li>
+                    <li><a class="nav-link" href="class.html" style="text-decoration: none;"> Classes |</a></li>
+                    <li><a class="nav-link" href="index.html#prices" style="text-decoration: none;"> Prices and packages |</a></li>
+                    <li><a class="nav-link" href="team.html" style="text-decoration: none;"> Our team |</a></li>
+                    <li><a class="nav-link" href="index.html#review" style="text-decoration: none;"> Reviews |</a></li>
+                    <li><a class="nav-link" href="gallery.html" style="text-decoration: none;"> Gallery |</a></li>
+                    <li><a class="nav-link" href="contact.html" style="text-decoration: none;"> Contacts |</a></li>
+                    <li><a class="nav-link" href="index.html#sign-up" style="text-decoration: none;"> Sign up </a></li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="#"><img src="img/facebook (1).png" alt="icon" style="height: 20px; width: 20px; margin: 5px;"></a>
+                    <a href="#"><img src="img/instagram-symbol.png" alt="icon"style="height: 20px; width: 20px; margin: 5px;"></a>
+                    <a href="#"><img src="img/twitter.png" alt="icon" style="height: 20px; width: 20px; margin: 5px;"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+      
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "yogaStyles": [
+    {
+      "name": "Hatha Yoga",
+      "description": "Hatha yoga is a foundational and traditional form of yoga that focuses on physical postures (asanas) and breath control (pranayama). It is often considered a gentle and introductory style, making it suitable for beginners."
+    },
+    {
+      "name": "Vinyasa Yoga",
+      "description": "Vinyasa, or flow yoga, involves a dynamic sequence of poses that are synchronized with the breath. Movements are smooth and continuous, creating a flowing and meditative practice."
+    },
+    {
+      "name": "Ashtanga Yoga",
+      "description": "Ashtanga is a physically demanding and structured form of yoga that follows a specific sequence of poses. It emphasizes breath control and a set series of postures to build strength, flexibility, and focus."
+    },
+    {
+      "name": "Iyengar Yoga",
+      "description": "Iyengar yoga places a strong emphasis on precision and alignment in the execution of postures. Props like blocks, straps, and blankets are often used to help students achieve correct alignment."
+    },
+    {
+      "name": "Kundalini Yoga",
+      "description": "Kundalini yoga aims to awaken spiritual energy at the base of the spine and channel it upward through the chakras. It involves dynamic movements, breathing exercises, meditation, and chanting."
+    },
+    {
+      "name": "Bikram Yoga",
+      "description": "Bikram yoga, also known as hot yoga, consists of a series of 26 postures and two breathing exercises practiced in a heated room. The heat is believed to enhance flexibility and detoxification."
+    },
+    {
+      "name": "Jivamukti Yoga",
+      "description": "Jivamukti yoga integrates physical postures with spiritual teachings, music, and chanting. Classes often include a theme, and practitioners are encouraged to apply yogic philosophy to daily life."
+    },
+    {
+      "name": "Restorative Yoga",
+      "description": "Restorative yoga focuses on relaxation and rejuvenation, using props to support the body in restful poses. It is ideal for reducing stress and promoting deep relaxation."
+    },
+    {
+      "name": "Yin Yoga",
+      "description": "Yin yoga targets the connective tissues, such as ligaments and fascia, by holding poses for an extended period. It complements more dynamic styles of yoga and enhances flexibility."
+    },
+    {
+      "name": "Aerial Yoga",
+      "description": "Aerial yoga involves performing traditional yoga poses using a hammock or silk suspended from the ceiling. It combines elements of yoga, dance, and acrobatics."
+    },
+    {
+      "name": "Yoga Nidra",
+      "description": "Yoga Nidra, or yogic sleep, is a guided meditation and relaxation practice that induces a state of conscious relaxation. It is often used for stress reduction and deep relaxation."
+    },
+    {
+      "name": "Flexible Class",
+      "description": "Stretch classes typically involve a series of stretching exercises targeting various muscle groups and joints. Static stretches, dynamic stretches, and PNF (proprioceptive neuromuscular facilitation) techniques may be incorporated."
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yoga Studio</title>
+        <link rel="shortcut icon" href="img/logo.png"/>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                background-image: url(img/mandala.png);
+            }
+            .card{
+                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            h1{
+                font-family: 'Josefin_Sans', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg bg-transparent z-1">
+                <div class="container justify-content-space-around">
+                    <div style="background-color: #000; margin-top: -8px; width: 80px; height: 100px; ">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="logo" class="img-fluid mt-3">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                        <ul class="navbar-nav text-center mx-auto mg-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="class.html">Classes <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#prices">Prices & packeges <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="team.html">Our team <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contacts <span class="arrow-icon">&#124</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#sign-up">Sign up </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/call.png" alt="logo" style="height: 20px; width: 20px;"> <strong style="font-size: 16px;">+(976) 8002-1027</strong> 
+                    </a>
+                </div>
+            </nav>
+
+
+            <div class="container mt-5" id="prices">
+                <h1 style="text-align: center;">Classes and prices</h1>
+                <p style="text-align: center;" class="mt-5">One lesson | <strong>Subscription</strong> | Sale</p>
+                <div class="row justify-content-around">
+                    <div class="mb-5">
+                    <div class="row row-cols-1 row-cols-md-3 g-5 mb-5 justify-content-center">
+                        <div class="d-flex">
+                            <div class="design mt-5"></div>
+                            <div class="col">
+                                <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                    <p>The one month</p>
+                                    <img src="img/greyWomen (1).jpg" class="card-img-top rounded-0" alt="yoga">
+                                    <h5 class="card-title"></h5>
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <h5 style="padding-left: 5px;"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                        <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex">
+                            <div class="design mt-5"></div>
+                            <div class="col">
+                                <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                    <p>The one month</p>
+                                    <img src="img/greyWomen (2).jpg" class="card-img-top rounded-0" alt="yoga">
+                                    <h5 class="card-title"></h5>
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <h5 style="padding-left: 5px;"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                        <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="d-flex">
+                            <div class="design mt-5"></div>
+                            <div class="col">
+                                <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                    <p>The one month</p>
+                                    <img src="img/greyWomen (3).jpg" class="card-img-top rounded-0" alt="yoga">
+                                    <h5 class="card-title"></h5>
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <h5 style="padding-left: 5px;"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                        <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex">
+                            <div class="design mt-5"></div>
+                            <div class="col">
+                                <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                    <p>The one month</p>
+                                    <img src="img/greyWomen (4).jpg" class="card-img-top rounded-0" alt="yoga">
+                                    <h5 class="card-title"></h5>
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <h5 style="padding-left: 5px;"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                        <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="d-flex">
+                            <div class="design mt-5"></div>
+                            <div class="col">
+                                <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                    <p>The one month</p>
+                                    <img src="img/greyWomen (5).jpg" class="card-img-top rounded-0" alt="yoga">
+                                    <h5 class="card-title"></h5>
+                                    <div class="card-body">
+                                        <div class="d-flex">
+                                            <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                            <h5 style="padding-left: 5px;"></h5>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                        <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="d-flex">
+                        <div class="design mt-5"></div>
+                        <div class="col">
+                            <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                <p>The one month</p>
+                                <img src="img/greyWomen (6).jpg" class="card-img-top rounded-0" alt="yoga">
+                                <h5 class="card-title"></h5>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <h5 style="padding-left: 5px;"></h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                    <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div class="design mt-5"></div>
+                        <div class="col">
+                            <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                                <p>The one month</p>
+                                <img src="img/greyWomen (7).jpg" class="card-img-top rounded-0" alt="yoga">
+                                <h5 class="card-title"></h5>
+                                <div class="card-body">
+                                    <div class="d-flex">
+                                        <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                        <h5 style="padding-left: 5px;"></h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                    <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="d-flex">
+                    <div class="design mt-5"></div>
+                    <div class="col">
+                        <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                            <p>The one month</p>
+                            <img src="img/greyWomen (8).jpg" class="card-img-top rounded-0" alt="yoga">
+                            <h5 class="card-title"></h5>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <h5 style="padding-left: 5px;"></h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                    <div class="d-flex">
+                    <div class="design mt-5"></div>
+                    <div class="col">
+                        <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                            <p>The one month</p>
+                            <img src="img/greyWomen (9).jpg" class="card-img-top rounded-0" alt="yoga">
+                            <h5 class="card-title"></h5>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <h5 style="padding-left: 5px;"></h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex">
+                    <div class="design mt-5"></div>
+                    <div class="col">
+                        <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                            <p>The one month</p>
+                            <img src="img/greyWomen 10 (1).jpg" class="card-img-top rounded-0" alt="yoga">
+                            <h5 class="card-title"></h5>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <h5 style="padding-left: 5px;"></h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex">
+                    <div class="design mt-5"></div>
+                    <div class="col">
+                        <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                            <p>The one month</p>
+                            <img src="img/greyWomen 10 (2).jpg" class="card-img-top rounded-0" alt="yoga">
+                            <h5 class="card-title"></h5>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <h5 style="padding-left: 5px;"></h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex">
+                    <div class="design mt-5"></div>
+                    <div class="col">
+                        <div class="card h-90 my-5 p-4 border-0 rounded-0">
+                            <p>The one month</p>
+                            <img src="img/greyWomen 10 (3).jpg" class="card-img-top rounded-0" alt="yoga">
+                            <h5 class="card-title"></h5>
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <img src="img/schedule.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">Monday - Sunday <br>07:00 am - 22:00pm</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/yoga (2).png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <p style="font-size: 12px; padding-left: 5px;">The price includes a towel water and a yoga mat</p>
+                                </div>
+                                <div class="d-flex">
+                                    <img src="img/money.png" class="card-img" alt="card" style="height: 30px; width: 30px;">
+                                    <h5 style="padding-left: 5px;"></h5>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center pt-3 pb-4">
+                                <button class="btn btn-md text-black border-1 border-black px-4 rounded-0">Get Started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                        
+
+
+
+
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--Footer-->
+        <section class="footer bg-transparent position-relative">
+            <div class="container">
+                <div class="d-flex justify-content-between text-center">
+                    <div class="footer" style="background-color: #000; width: 80px; height: 100px; ">
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo.png" alt="logo" class="img-fluid">
+                        </a>
+                    </div>
+                    <ul class="list-unstyled d-flex justify-content-between align-items-center mt-4">
+                        <li><a class="nav-link" href="index.html" style="text-decoration: none;">Home |</a></li>
+                        <li><a class="nav-link" href="class.html" style="text-decoration: none;"> Classes |</a></li>
+                        <li><a class="nav-link" href="index.html#prices" style="text-decoration: none;"> Prices and packages |</a></li>
+                        <li><a class="nav-link" href="team.html" style="text-decoration: none;"> Our team |</a></li>
+                        <li><a class="nav-link" href="index.html#review" style="text-decoration: none;"> Reviews |</a></li>
+                        <li><a class="nav-link" href="gallery.html" style="text-decoration: none;"> Gallery |</a></li>
+                        <li><a class="nav-link" href="contact.html" style="text-decoration: none;"> Contacts |</a></li>
+                        <li><a class="nav-link" href="index.html#sign-up" style="text-decoration: none;"> Sign up </a></li>
+                    </ul>
+                    <div class="d-flex align-items-center">
+                        <a href="#"><img src="img/facebook (1).png" alt="icon" style="height: 20px; width: 20px; margin: 5px;"></a>
+                        <a href="#"><img src="img/instagram-symbol.png" alt="icon"style="height: 20px; width: 20px; margin: 5px;"></a>
+                        <a href="#"><img src="img/twitter.png" alt="icon" style="height: 20px; width: 20px; margin: 5px;"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--API-->
+        <script>
+            $(document).ready(function () {
+            var apiData = {
+                "yogaStyles": [
+                    { "name": "Hatha Yoga", "description": "Hatha yoga is a foundational and traditional form of yoga that focuses on physical postures (asanas) and breath control (pranayama). It is often considered a gentle and introductory style, making it suitable for beginners.", "price": 65 },
+                    { "name": "Vinyasa Yoga", "description": "Vinyasa, or flow yoga, involves a dynamic sequence of poses that are synchronized with the breath. Movements are smooth and continuous, creating a flowing and meditative practice.", "price": 75 },
+                    { "name": "Ashtanga Yoga", "description": "Ashtanga is a physically demanding and structured form of yoga that follows a specific sequence of poses. It emphasizes breath control and a set series of postures to build strength, flexibility, and focus.", "price": 80 },
+                    { "name": "Iyengar Yoga", "description": "Iyengar yoga places a strong emphasis on precision and alignment in the execution of postures. Props like blocks, straps, and blankets are often used to help students achieve correct alignment.", "price": 55 },
+                    { "name": "Kundalini Yoga", "description": "Kundalini yoga aims to awaken spiritual energy at the base of the spine and channel it upward through the chakras. It involves dynamic movements, breathing exercises, meditation, and chanting.", "price": 70 },
+                    { "name": "Bikram Yoga", "description": "Bikram yoga, also known as hot yoga, consists of a series of 26 postures and two breathing exercises practiced in a heated room. The heat is believed to enhance flexibility and detoxification.", "price": 85 },
+                    { "name": "Jivamukti Yoga", "description": "Jivamukti yoga integrates physical postures with spiritual teachings, music, and chanting. Classes often include a theme, and practitioners are encouraged to apply yogic philosophy to daily life.", "price": 60 },
+                    { "name": "Restorative Yoga", "description": "Restorative yoga focuses on relaxation and rejuvenation, using props to support the body in restful poses. It is ideal for reducing stress and promoting deep relaxation.", "price": 50 },
+                    { "name": "Yin Yoga", "description": "Yin yoga targets the connective tissues, such as ligaments and fascia, by holding poses for an extended period. It complements more dynamic styles of yoga and enhances flexibility.", "price": 75 },
+                    { "name": "Aerial Yoga", "description": "Aerial yoga involves performing traditional yoga poses using a hammock or silk suspended from the ceiling. It combines elements of yoga, dance, and acrobatics.", "price": 90 },
+                    { "name": "Yoga Nidra", "description": "Yoga Nidra, or yogic sleep, is a guided meditation and relaxation practice that induces a state of conscious relaxation. It is often used for stress reduction and deep relaxation.", "price": 55 },
+                    { "name": "Flexible Class", "description": "Stretch classes typically involve a series of stretching exercises targeting various muscle groups and joints. Static stretches, dynamic stretches, and PNF (proprioceptive neuromuscular facilitation) techniques may be incorporated.", "price": 65 }
+                    ]
+            };
+        
+                $(".card-title").each(function (index) {
+                $(this).text(apiData.yogaStyles[index].name);
+                $(this).siblings(".card-body").find("h5").text(apiData.yogaStyles[index].price + "$");
+                });
+            });
+        </script>
+        
+
+        <!-- Bootstrap scripts -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+    </html>
